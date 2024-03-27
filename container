@@ -1,0 +1,10 @@
+import random
+
+# 生成随机的循环条件和循环体内容
+condition = random.choice([True, False])
+loop_body = "Loop iteration"
+
+# 生成带有条件判断的while循环
+while condition:
+    print(loop_body)
+    condition = random.choice([True, False])
